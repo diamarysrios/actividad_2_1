@@ -1,0 +1,63 @@
+body {
+    margin: 0; 
+    font-family:'Times New Roman', Times, serif
+}
+
+#encabezado {
+    background-image: url('/img/encabezado1.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 50vh; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contenedor {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper-tarjetas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tarjeta{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:420px;
+  border: 1px solid rgb(181, 19, 196);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+  background-color: violet;
+}
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+}
+.cuerpo{
+  padding: 10px;
+}
+
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: ""
+}
+
